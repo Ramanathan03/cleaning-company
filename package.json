@@ -9,12 +9,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "client-install": "npm install --prefix clientside",
+     "client-install": "npm install --prefix globus",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix clientside",
+    "client": "npm start --prefix globus",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix clientside  && npm run build --prefix clientside"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix globus  && npm run build --prefix globus"
   },
   "author": "ram",
   "license": "ISC",
