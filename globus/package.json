@@ -10,7 +10,7 @@
   "scripts": {
     "start": "next start -p $PORT",
     "dev": "next",
-    "build": "next build",
+    "build": "next build  && next export",
     "heroku-postbuild": "npm run build"
   },
   "author": "ram",
