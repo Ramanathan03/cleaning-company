@@ -1,4 +1,5 @@
 const express = require('express')
+let router = express.Router();
 let cors = require("cors");
 const env = require("dotenv");
 const path = require("path");
@@ -10,11 +11,8 @@ const stripe = require('stripe')(process.env.STRIPE_SCERET_TEST)
 const app = express();
 
 
-app.use(cors());
-app.use(bodyParser.urlencoded({extended:true}));
-app.use(bodyParser.json());
 
-app.post('/payment', cors(), async(req,res)=>{
+router.post('/payment', cors(), async(req,res)=>{
      let {amount, id, name} = req.body
      console.log(amount)
      try{
@@ -34,7 +32,22 @@ app.post('/payment', cors(), async(req,res)=>{
 
      }
 })
-
+app.use(cors());
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.json());
+app.use("/", router);
 app.listen(process.env.PORT || 4000, ()=>{
 	console.log("server is running")
 })
+app.use(express.static(path.join(__dirname, "globus/build")));
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "globus/build")));
+  app.get("*", (req, res) => {
+    res.sendfile(path.join((__dirname = "globus/build/index.html")));
+  });
+} else {
+  app.get("*", (req, res) => {
+    res.sendfile(path.join((__dirname = "globus/public/index.html")));
+  });
+}
