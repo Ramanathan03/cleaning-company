@@ -44,10 +44,10 @@ app.use(express.static(path.join(__dirname, "globus/build")));
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "globus/build")));
   app.get("*", (req, res) => {
-    res.sendfile(path.join((__dirname = "globus/build/index.html")));
+    res.sendfile(path.join((__dirname = "globus/out/index.html")));
   });
 } else {
   app.get("*", (req, res) => {
-    res.sendfile(path.join((__dirname = "globus/public/index.html")));
+    res.sendfile(path.join((__dirname = "globus/out/index.html")));
   });
 }
