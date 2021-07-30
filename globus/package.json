@@ -1,0 +1,35 @@
+{
+  "name": "globus",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "npm": "5.7.1",
+    "node": "12.16.2"
+  },
+   "proxy": "http://localhost:4000",
+  "scripts": {
+    "start": "next start -p $PORT",
+    "dev": "next",
+    "build": "next build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "ram",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.16.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "^9.5.3",
+    "react": "next",
+    "react-currency-input-field": "^3.4.2",
+    "react-dom": "next"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "pretty-quick": "^3.0.2"
+  }
+}

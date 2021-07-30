@@ -1,0 +1,428 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200926.160401.10744.0.001.json",
+    "dumpEventTime": "2020-09-26T16:04:02Z",
+    "dumpEventTimeStamp": "1601132642690",
+    "processId": 10744,
+    "threadId": null,
+    "cwd": "C:\\Users\\user\\Desktop\\Globus_cleaning\\globus\\pages",
+    "commandLine": [
+      "node",
+      "C:\\Users\\user\\AppData\\Roaming\\Sublime Text 3\\Packages\\TypeScript\\tsserver\\tsserver.js",
+      "--disableAutomaticTypingAcquisition"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.2/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD E1-6010 APU with AMD Radeon R2 Graphics    ",
+        "speed": 1347,
+        "user": 91275093,
+        "nice": 0,
+        "sys": 28326750,
+        "idle": 141080796,
+        "irq": 2175265
+      },
+      {
+        "model": "AMD E1-6010 APU with AMD Radeon R2 Graphics    ",
+        "speed": 1347,
+        "user": 107891125,
+        "nice": 0,
+        "sys": 21405484,
+        "idle": 131385390,
+        "irq": 523859
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:06",
+        "address": "fe80::192:6262:5c70:1773",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:06",
+        "address": "169.254.23.115",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:12",
+        "address": "fe80::9dab:cc78:1c9d:9316",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:12",
+        "address": "192.168.99.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::9c87:85e2:384b:5c0b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 21
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.159.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::518c:c307:9dec:62ed",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.31.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "4c:bb:58:1f:06:6d",
+        "address": "fe80::c4be:324f:8068:13a3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "4c:bb:58:1f:06:6d",
+        "address": "192.168.1.139",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-5ERGJ0I"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff67a362309",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff67a366869",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff67a3656e8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff67a48dd82",
+      "symbol": "v8::base::CPU::has_sse+59378"
+    },
+    {
+      "pc": "0x00007ff67acaa27e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff67ac92351",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff67ab5e8ac",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff67ab66831",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3761"
+    },
+    {
+      "pc": "0x00007ff67ab5be03",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff67ab5a474",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff67ab7b67d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff67a8e13d1",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff67b0f730d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff67b07b893",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+40147"
+    },
+    {
+      "pc": "0x000000980981d603",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 78213120,
+    "totalCommittedMemory": 78213120,
+    "usedMemory": 76654400,
+    "availableMemory": 1818589680,
+    "memoryLimit": 1894776832,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047456,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 51257344,
+        "committedMemory": 51257344,
+        "capacity": 51121936,
+        "used": 50405032,
+        "available": 716904
+      },
+      "code_space": {
+        "memorySize": 2265088,
+        "committedMemory": 2265088,
+        "capacity": 2141728,
+        "used": 2060416,
+        "available": 81312
+      },
+      "map_space": {
+        "memorySize": 790528,
+        "committedMemory": 790528,
+        "capacity": 789016,
+        "used": 608720,
+        "available": 180296
+      },
+      "large_object_space": {
+        "memorySize": 22196224,
+        "committedMemory": 22196224,
+        "capacity": 22168160,
+        "used": 22168160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 393216,
+        "committedMemory": 393216,
+        "capacity": 331808,
+        "used": 331808,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1007.14,
+    "kernelCpuSeconds": 1235.11,
+    "cpuConsumptionPercent": 0.657027,
+    "maxRss": 698089472,
+    "pageFaults": {
+      "IORequired": 3017632,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 8643,
+      "writes": 7010
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "HOMEPATH": "\\Users\\user",
+    "COMPUTERNAME": "DESKTOP-5ERGJ0I",
+    "CHOCOLATEYINSTALL": "C:\\ProgramData\\chocolatey",
+    "WINDIR": "C:\\WINDOWS",
+    "JVM PATH": "C:\\Program Files\\Android\\Android Studio\\jre\\jre",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "USERDOMAIN": "DESKTOP-5ERGJ0I",
+    "SYSTEMDRIVE": "C:",
+    "NUMBER_OF_PROCESSORS": "2",
+    "ONEDRIVECONSUMER": "C:\\Users\\user\\OneDrive",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 22 Model 48 Stepping 1, AuthenticAMD",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PROCESSOR_LEVEL": "22",
+    "PROCESSOR_REVISION": "3001",
+    "COMMONPROGRAMFILES(X86)": "C:\\Program Files (x86)\\Common Files",
+    "RUBYOPT": "-Eutf-8",
+    "USERPROFILE": "C:\\Users\\user",
+    "PROGRAMW6432": "C:\\Program Files",
+    "USERNAME": "user",
+    "PSMODULEPATH": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-5ERGJ0I",
+    "PUBLIC": "C:\\Users\\Public",
+    "TMP": "C:\\Users\\user\\AppData\\Local\\Temp",
+    "SUBLIME": "C:\\Program Files\\Sublime Text 3",
+    "SESSIONNAME": "Console",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "ASL.LOG": "Destination=file",
+    "SUBL": "C:\\Program Files\\Sublime Text 3\\",
+    "OS": "Windows_NT",
+    "INTELLIJ IDEA COMMUNITY EDITION": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.3.1\\bin;",
+    "PATH": "C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe;C:\\\\Program Files\\\\Git\\\\cmd\\\\;C:\\Program Files\\Sublime Text 3;C:\\Program Files\\ram;C:\\Ruby25-x64\\bin\\ruby.exe;C:\\Program Files\\PuTTY\\;C:\\Program Files\\nodejs;C:\\Program Files\\nodejs\\node_modules\\npm;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\user\\AppData\\Roaming\\npm\\tsc;C:\\Program Files\\PostgreSQL\\12\\bin\\psql.exe;C:\\Program Files\\PostgreSQL\\12\\bin;C:\\Program Files\\heroku\\bin;C:\\Users\\user\\Downloads\\sqlite-tools-win32-x86-3320300\\sqlite-tools-win32-x86-3320300\\sqllite3.exe;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe;C:\\\\Program Files\\\\Git\\\\cmd\\\\;C:\\Program Files\\Sublime Text 3;C:\\Program Files\\ram;C:\\Ruby25-x64\\bin\\ruby.exe;C:\\Program Files\\PuTTY\\;C:\\Program Files\\nodejs;C:\\Program Files\\nodejs\\node_modules\\npm;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\user\\AppData\\Roaming\\npm\\tsc;C:\\Program Files\\Git\\cmd;C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe;C:\\\\Program Files\\\\Git\\\\cmd\\\\;C:\\Program Files\\Sublime Text 3;C:\\Program Files\\ram;C:\\Ruby25-x64\\bin\\ruby.exe;C:\\Pro;C:\\Program Files\\PostgreSQL\\12\\bin\\psql.exe;C:\\Program Files\\PostgreSQL\\12\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\user\\.dotnet\\tools",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "LOCALAPPDATA": "C:\\Users\\user\\AppData\\Local",
+    "CHOCOLATEYLASTPATHUPDATE": "132325839530350252",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "DRIVERDATA": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "LOGONSERVER": "\\\\DESKTOP-5ERGJ0I",
+    "TEMP": "C:\\Users\\user\\AppData\\Local\\Temp",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW",
+    "COMMONPROGRAMW6432": "C:\\Program Files\\Common Files",
+    "PROGRAMFILES(X86)": "C:\\Program Files (x86)",
+    "NPM": " C:\\Program Files\\nodejs\\node_modules\\npm",
+    "DOCKER_TOOLBOX_INSTALL_PATH": "C:\\Program Files\\Docker Toolbox",
+    "APPDATA": "C:\\Users\\user\\AppData\\Roaming",
+    "ONEDRIVE": "C:\\Users\\user\\OneDrive",
+    "TSC": "C:\\Users\\user\\AppData\\Roaming\\npm\\tsc.cmd",
+    "PROGRAMDATA": "C:\\ProgramData",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "HOMEDRIVE": "C:"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
