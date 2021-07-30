@@ -39,12 +39,12 @@ app.use("/", router);
 app.listen(process.env.PORT || 4000, ()=>{
 	console.log("server is running")
 })
-app.use(express.static(path.join(__dirname, "globus/build")));
+app.use(express.static(path.join(__dirname, "globus/out")));
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "globus/build")));
+  app.use(express.static(path.join(__dirname, "globus/out")));
   app.get("*", (req, res) => {
-    res.sendfile(path.join((__dirname , "globus/pages/_app.js")));
+    res.sendfile(path.join((__dirname , "globus/out/index.html")));
   });
 } else {
   app.get("*", (req, res) => {
