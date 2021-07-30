@@ -1,7 +1,7 @@
 import Header_top from './header_top.js'
 import Header from './Head.js'
 import Footer from './footer.js'
-import Stripecontainer from './stripe.js'
+import Stripecontainer from '../stripe.js'
 import CurrencyInput from 'react-currency-input-field';
 
 const contact = ()=>(
