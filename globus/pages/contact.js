@@ -60,8 +60,8 @@ const contact = ()=>(
             <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
           </svg>
           <h4 className="contact-address">Working Hours</h4>
-          <p className="contact-des" style={{top:'-3px'}}>Mon-Fri:</p>
-          <p className="contact-des" style={{top: '-18px'}}>10:00am - 5:00pm</p>
+          <p className="contact-des" style={{top:'-15px'}}>Mon-Fri:</p>
+          <p className="contact-des" style={{top: '-28px'}}>10:00am - 5:00pm</p>
             </div>
     </div>
     </div>

@@ -25,6 +25,18 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
 }
+.contact-des{
+    position: relative;
+    top: -15px;
+    color: #5d5d5d;
+    left: 155px;
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    text-align: initial;
+    width: 170px;
+    height: fit-content;
+    padding-top: 50px;
+}
 .stripe-cardform{
     margin-top: 32px;
     margin-left: 295px;
@@ -363,17 +375,7 @@
     left: 10px;
     top: 6px;
 }
-.contact-des{
-    position: relative;
-    top: -15px;
-    color: #5d5d5d;
-    left: 155px;
-    font-size: 15px;
-    font-family: 'Roboto Slab';
-    text-align: initial;
-    width: 170px;
-    height: fit-content;
-}
+
 .footer-our-address{
 	position: relative;
     top: 14px;
