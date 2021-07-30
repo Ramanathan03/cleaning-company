@@ -2,8 +2,7 @@ import Header from './Head.js'
 import Head_slider from './head_slider.js'
 import Header_top from './header_top.js'
 import Footer from './footer.js'
-import 'bootstrap/dist/css/bootstrap.css'
-import "../css/main.css"
+
 const index = ()=>(
 	<div>
 	<Header></Header>
