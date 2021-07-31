@@ -29,7 +29,7 @@
     position: relative;
     top: -15px;
     color: #5d5d5d;
-    left: 155px;
+    left: 43px;
     font-size: 15px;
     font-family: 'Roboto Slab';
     text-align: initial;
@@ -570,6 +570,27 @@
     font-size: 26px;
     width: 100%;
     text-shadow: 0 0 2px black;
+}
+.contact-input-label {
+    display: block;
+    left: -105px;
+    margin-left: 0px;
+}
+.contact-input {
+    right: 15px;
+    height: 30px;
+    margin-left:0px; 
+    
+}
+.stripe-cardform {
+    margin-left: 38px;
+}
+.sm-margin{
+    left: -113px;
+}
+.sm-div{
+        padding-left: 47px;
+    padding-top: 30px;
 }
 .section-hr2 {
     width: 100px;

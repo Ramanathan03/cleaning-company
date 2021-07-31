@@ -21,7 +21,3 @@ $(window).scroll(function(event) {
       
 });
 
-$(document).ready(function(){
-  $(".amount").numeric();
-  console.log('hi')
-})

@@ -23,7 +23,7 @@ const contact = ()=>(
         <input name="name" placeholder="Fullname" id="fullname-input" className="contact-input" />
         </div>
         <div class="form-group">
-        <label className="contact-input-label" style={{left:'-7px'}}>Amount</label>
+        <label className="contact-input-label sm-margin" style={{left:'-7px'}}>Amount</label>
         <CurrencyInput
   id="input-currency"
   name="input-name"
@@ -36,7 +36,7 @@ const contact = ()=>(
 </div>
     	<Stripecontainer />
      </div>
-     <div className="col-md-6">
+     <div className="col-md-6 sm-div">
     	<div className="">
      		<svg style={{float: 'left', marginLeft: '115px;'}} width="2em" height="3em" viewBox="0 0 16 16" class="bi bi-geo-alt " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
@@ -61,7 +61,7 @@ const contact = ()=>(
           </svg>
           <h4 className="contact-address">Working Hours</h4>
           <p className="contact-des" style={{top:'-15px'}}>Mon-Fri:</p>
-          <p className="contact-des" style={{top: '-28px'}}>10:00am - 5:00pm</p>
+          <p className="contact-des" style={{top: '-78px'}}>10:00am - 5:00pm</p>
             </div>
     </div>
     </div>

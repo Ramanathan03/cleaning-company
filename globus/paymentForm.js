@@ -47,7 +47,10 @@ export default function PaymentForm(){
     			id
     		})
     		if(response.data.success){
-    			console.log(sucess)
+    			console.log('sucess');
+          $('#input-currency').value = ''
+          $('#fullname-input').value = ''
+
           console.log($('#fullname-input').value)
           window.location.reload();
     			
