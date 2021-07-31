@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 app.use("/", router);
 app.listen(process.env.PORT || 4000, ()=>{
-	console.log("server is running")
+	console.log(`server is running `)
 })
 app.use(express.static(path.join(__dirname, "globus/out")));
 
