@@ -577,16 +577,17 @@
     margin-left: 0px;
 }
 .contact-input {
-    right: 15px;
+    right: 18px;
     height: 30px;
-    margin-left:0px; 
+    margin-left: 0;
+    left: -13px; 
     
 }
 .stripe-cardform {
     margin-left: 38px;
 }
 .sm-margin{
-    left: -113px;
+        left: -113px !important;
 }
 .sm-div{
         padding-left: 47px;
